@@ -122,6 +122,8 @@ p{
 
 }
 
+
+
 /* footer */
 #footer{
     background-color: #ff4c68;
@@ -131,6 +133,12 @@ p{
 #footer p{
     
     margin: auto;
+}
+@media(max-width:800px){
+    #title img{
+    position: static;
+    transform: rotate(0);
+    }
 }
 /* 
 customization for navbar class
