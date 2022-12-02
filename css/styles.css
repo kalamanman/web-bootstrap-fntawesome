@@ -135,8 +135,13 @@ p{
     margin: auto;
 }
 @media(max-width:800px){
-    #title img{
+    #title .img-container{
+        text-align: center ;
+    }
+    #title .img-container img{
+        
     position: static;
+    margin: auto;
     transform: rotate(0);
     }
 }
